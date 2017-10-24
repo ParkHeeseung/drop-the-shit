@@ -1,0 +1,10 @@
+diff a/New Unity Project 4/Assets/Avatars_Animations_Bible_Demo/AnimationPacks/StreetFight/SF@idle.fbx.meta b/New Unity Project 4/Assets/Avatars_Animations_Bible_Demo/AnimationPacks/StreetFight/SF@idle.fbx.meta	(rejected hunks)
+@@ -73,7 +73,7 @@
+     400062: //RootNode
+     400064: Spine_01_J
+     400066: Spine_02_J
+-    7400000: Take 001
++    7400000: idle
+     9500000: //RootNode
+   materials:
+     importMaterials: 1
