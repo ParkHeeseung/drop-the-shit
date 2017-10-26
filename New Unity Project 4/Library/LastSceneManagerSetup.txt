@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Avatars_Animations_Bible_Demo/Avatars_Animations_Bible_Demo.unity
+- path: Assets/test_game.unity
   isLoaded: 1
   isActive: 1
