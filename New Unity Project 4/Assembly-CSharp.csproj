@@ -52,10 +52,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\script\CameraFollow.cs" />
+     <Compile Include="Assets\script\droping_ship.cs" />
      <Compile Include="Assets\script\GameManager.cs" />
+     <Compile Include="Assets\script\InstantiateExample.cs" />
      <Compile Include="Assets\script\Player_ClickToMove.cs" />
      <Compile Include="Assets\script\Player_ControllerMove.cs" />
      <Compile Include="Assets\script\Player_FullControl.cs" />
+     <Compile Include="Assets\script\Prefabs.cs" />
+     <Compile Include="Assets\script\Prefabs2.cs" />
      <Compile Include="Assets\script\WallMover.cs" />
      <None Include="Assets\item\yong.txt" />
  <Reference Include="UnityEngine.UI">
