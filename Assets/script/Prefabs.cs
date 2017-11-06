@@ -14,7 +14,7 @@ public class Prefabs : MonoBehaviour
     public void newObject()
     {
         GameObject createdObject = Instantiate(prefab, new Vector3(0, 24, -8), Quaternion.identity);
-        createdObject.transform.position = new Vector3(Random.Range(-100, 100), 24, Random.Range(-100, 100));
+        createdObject.transform.position = new Vector3(Random.Range(-50, 50), Random.Range(25,40), Random.Range(-50, 50));
     }
 
     void Start()
@@ -29,11 +29,11 @@ public class Prefabs : MonoBehaviour
         IEnumerator newobject(){
         while (true)
         {
-            for (int i = 0; i < 700; i++)
+            for (int i = 0; i < 70; i++)
             {
                 newObject();
             }
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(1);
         }
         }
 
