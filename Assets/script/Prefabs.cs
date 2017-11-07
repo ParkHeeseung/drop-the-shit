@@ -14,7 +14,8 @@ public class Prefabs : MonoBehaviour
     public void newObject()
     {
         GameObject createdObject = Instantiate(prefab, new Vector3(0, 24, -8), Quaternion.identity);
-        createdObject.transform.position = new Vector3(Random.Range(-50, 50), Random.Range(25,40), Random.Range(-50, 50));
+        createdObject.transform.position = new Vector3(Random.Range(-50, 100), Random.Range(25, 40), Random.Range(-50, 50));
+        createdObject.transform.rotation = new Quaternion(10, 20, 0, 0);
     }
 
     void Start()
@@ -36,14 +37,6 @@ public class Prefabs : MonoBehaviour
             yield return new WaitForSeconds(0.7f);
         }
         }
-
-    
-          //  for (int i = 0; i < 100; i++)
-          //  {
-         //       newObject();
-          //  }
-
-       
     
 
     void Update()
