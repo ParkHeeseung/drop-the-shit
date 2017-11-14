@@ -30,7 +30,7 @@ public class Prefabs : MonoBehaviour
         IEnumerator newobject(){
         while (true)
         {
-            for (int i = 0; i < 70; i++)
+            for (int i = 0; i < 200; i++)
             {
                 newObject();
             }
