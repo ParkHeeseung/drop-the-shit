@@ -18,6 +18,6 @@ public class Gameover : MonoBehaviour {
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Respawn")
-            SceneManager.LoadScene(0,LoadSceneMode.Single);
+            SceneManager.LoadScene(10,LoadSceneMode.Single);
     }
 }
