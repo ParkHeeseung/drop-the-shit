@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NextStage : MonoBehaviour
+public class NextStage_for_2: MonoBehaviour
 {
     void OnTriggerEnter(Collider _col)
     {
         if (_col.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(3, LoadSceneMode.Single); 
+            SceneManager.LoadScene(5, LoadSceneMode.Single); 
         }
     }
 }
