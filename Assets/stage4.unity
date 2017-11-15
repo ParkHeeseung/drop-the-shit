@@ -594,7 +594,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1.9161586, z: 1.9161582}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: 90, z: 0}
 --- !u!1 &398766230
 GameObject:
@@ -846,8 +846,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 2, y: 1.2, z: 1}
+  m_Center: {x: 0, y: 0.1, z: 0}
 --- !u!33 &398766236
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1353,13 +1353,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 737424584}
-  m_LocalRotation: {x: -0.07278562, y: 0, z: 0, w: 0.99734765}
-  m_LocalPosition: {x: -0.01, y: 0.5717857, z: 0.05}
-  m_LocalScale: {x: 2, y: 0.39177215, z: 0.6306404}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0.05}
+  m_LocalScale: {x: 2, y: 0.4, z: 0.6}
   m_Children: []
   m_Father: {fileID: 398766237}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -8.348001, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &762824311 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100002, guid: 4fed004c0b23bcf43aaa7bb2886b1f7d, type: 3}
@@ -2446,26 +2446,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0.5, z: 0}
---- !u!1 &1776390373 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1358476916313826, guid: 4347ef6e7329ea2468c368be9cb20a44,
-    type: 2}
-  m_PrefabInternal: {fileID: 249028043}
---- !u!114 &1776390376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1776390373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1380f5c054c1837489686b043cb41eec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 1358476916313826, guid: 4347ef6e7329ea2468c368be9cb20a44, type: 2}
-  gridX: 5
-  gridY: 5
-  spacing: 2
 --- !u!1001 &1781616054
 Prefab:
   m_ObjectHideFlags: 0
