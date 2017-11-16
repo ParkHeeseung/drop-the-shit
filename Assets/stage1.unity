@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657832, g: 0.4964139, b: 0.57481974, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657856, g: 0.49641377, b: 0.5748193, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -442,6 +442,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TranslatePosition: {fileID: 0}
+  potalSound: {fileID: 0}
 --- !u!65 &228500947
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1014,7 +1015,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 4fed004c0b23bcf43aaa7bb2886b1f7d, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 4fed004c0b23bcf43aaa7bb2886b1f7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -1076,7 +1077,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 4fed004c0b23bcf43aaa7bb2886b1f7d, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 4fed004c0b23bcf43aaa7bb2886b1f7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -1430,6 +1431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TranslatePosition: {fileID: 1154184837}
+  potalSound: {fileID: 0}
 --- !u!65 &762824314
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1874,6 +1876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TranslatePosition: {fileID: 0}
+  potalSound: {fileID: 0}
 --- !u!65 &1154184836
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2434,6 +2437,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TranslatePosition: {fileID: 228500948}
+  potalSound: {fileID: 8300000, guid: e849fd98e25fd9c46b15defc3789d3b4, type: 3}
 --- !u!65 &1731767660
 BoxCollider:
   m_ObjectHideFlags: 0

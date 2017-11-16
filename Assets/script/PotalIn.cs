@@ -5,6 +5,8 @@ using UnityEngine;
 public class PotalIn : MonoBehaviour {
 
     public Transform TranslatePosition;
+    private AudioSource audio;
+    public AudioClip potalSound;
     
 	void OnTriggerEnter(Collider _col)
     {
@@ -21,6 +23,17 @@ public class PotalIn : MonoBehaviour {
             }
             ParentTransform.position = TranslatePosition.position;
             ParentTransform.rotation = TranslatePosition.rotation;
+
+            this.audio.Play();
         }
     }
+
+    void Start()
+    {
+        this.audio = this.gameObject.AddComponent<AudioSource>();
+        this.audio.clip = this.potalSound;
+        this.audio.loop = false;
+        this.audio.volume = 1.0f;
+    }
+        
 }
