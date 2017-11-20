@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4524707818882436}
   - component: {fileID: 114341232919109078}
   - component: {fileID: 65634977852912252}
+  - component: {fileID: 114863799335214578}
   m_Layer: 0
   m_Name: shit
   m_TagString: Respawn
@@ -52,7 +53,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1195466033424940}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.2610805, y: -4.6015644e-18, z: 2.404041}
+  m_LocalPosition: {x: 19.431, y: 0.357, z: 10.61756}
   m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
   m_Children:
   - {fileID: 4815906877234984}
@@ -121,8 +122,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.03, y: 0.03, z: 0.03}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 5, z: 0}
 --- !u!114 &114341232919109078
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -136,3 +137,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 20
   destroyTime: 5
+--- !u!114 &114863799335214578
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1195466033424940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96051a27426182243a64caccfe659665, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

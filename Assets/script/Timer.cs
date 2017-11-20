@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
@@ -27,6 +28,11 @@ public class Timer : MonoBehaviour
         Text TimeCount = GetComponent<Text>();
         TimeCount.text = "남은 시간 : " + t.ToString();
         TimeCount.fontSize = Screen.height * size / 10;
+
+        if(TimeCost == 0)
+        {
+            SceneManager.LoadScene(10, LoadSceneMode.Single);
+        }
 
     }
 
