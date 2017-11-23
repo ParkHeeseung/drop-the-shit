@@ -912,11 +912,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 0}
-  bird: {fileID: 0}
   gridX: 5
   gridY: 5
   spacing: 2
-  obj: {fileID: 0}
 --- !u!1001 &534295426
 Prefab:
   m_ObjectHideFlags: 0
