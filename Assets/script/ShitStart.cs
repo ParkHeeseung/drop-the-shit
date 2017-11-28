@@ -10,17 +10,17 @@ public class ShitStart : MonoBehaviour {
     public float spacing = 2f;
 
 
-    public void newObject()
+    public void newObject(int i)
     {
         GameObject createdObject = Instantiate(prefab, new Vector3(0, 25, 0), Quaternion.identity);
-        createdObject.transform.position = new Vector3(Random.Range(55,65), Random.Range(51,57), 0);
-        createdObject.transform.rotation = new Quaternion(10, 20, 0, 0);
+        createdObject.transform.position = new Vector3(80, 40, 0);
+        createdObject.transform.rotation = new Quaternion(-10, -10, -4+(i/5), -4+(i/5));
 
     }
 
     void Start()
     {
-        prefab = Resources.Load("shit") as GameObject;
+        prefab = Resources.Load("Penguin_start") as GameObject;
 
         //Prefabs obj = Instantiate(shit);
 
@@ -30,13 +30,18 @@ public class ShitStart : MonoBehaviour {
 
     IEnumerator newobject()
     {
-        while (true)
+        for (int i = 0; i < 40; i++)
         {
-            for (int i = 0; i < 1; i++)
-                newObject();
-
-            yield return new WaitForSeconds(0.1f);
+             newObject(i);
+             yield return new WaitForSeconds(0.01f);
         }
+
+        for (int i = 40; i > 0; i--)
+        {
+            newObject(i);
+            yield return new WaitForSeconds(0.01f);
+        }
+
     }
 
 
