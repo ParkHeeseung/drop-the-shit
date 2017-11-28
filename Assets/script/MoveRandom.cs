@@ -27,12 +27,12 @@ public class MoveRandom : MonoBehaviour {
                 obj.transform.Rotate(0, 180, 0);
                 obj.velocity = -obj.transform.right * 15;
             }
-            else if (obj.position.z > 30)
+            else if (obj.position.z > 40)
             {
                 obj.transform.Rotate(0, 180, 0);
                 obj.velocity = -obj.transform.right * 15;
             }
-            else if (obj.position.z < -30)
+            else if (obj.position.z < -40)
             {
                 obj.transform.Rotate(0, 180, 0);
                 obj.velocity = -obj.transform.right * 15;

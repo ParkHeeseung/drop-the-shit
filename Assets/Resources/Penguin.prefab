@@ -535,11 +535,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 0}
-  bird: {fileID: 0}
   gridX: 5
   gridY: 5
   spacing: 2
-  obj: {fileID: 0}
 --- !u!137 &137792238740310814
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

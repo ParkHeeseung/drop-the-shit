@@ -19,7 +19,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4742112549767430}
-  - component: {fileID: 114457504975779214}
   - component: {fileID: 65299262970610216}
   - component: {fileID: 114383565583509884}
   - component: {fileID: 114402783730552776}
@@ -147,7 +146,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1577366282362980}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 96051a27426182243a64caccfe659665, type: 3}
   m_Name: 
@@ -163,18 +162,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a8bc2c8578877244b2e9001da9892a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 1
-  destroyTime: 3
---- !u!114 &114457504975779214
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1577366282362980}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a8bc2c8578877244b2e9001da9892a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   Speed: 20
-  destroyTime: 5
+  destroyTime: 3

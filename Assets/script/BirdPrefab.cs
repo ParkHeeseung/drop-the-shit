@@ -12,7 +12,7 @@ public class BirdPrefab : MonoBehaviour {
     public void newObject()
     {
         GameObject createdObject = Instantiate(prefab, new Vector3(0, 24, -8), Quaternion.identity);
-        createdObject.transform.position = new Vector3(Random.Range(-40, 40), Random.Range(25, 50), Random.Range(-10, 10));
+        createdObject.transform.position = new Vector3(Random.Range(-40, 40), Random.Range(25, 50), Random.Range(-30, 30));
        // createdObject.transform.rotation = new Quaternion(10, 20, 0, 0);
     }
 
