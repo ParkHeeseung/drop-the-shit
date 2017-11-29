@@ -21,11 +21,12 @@ public class BirdPrefab : MonoBehaviour {
         prefab = Resources.Load("Penguin") as GameObject;
         //Prefabs obj = Instantiate(shit);
 
-
         StartCoroutine(newobject());
     }
 
     IEnumerator newobject(){
+        yield return new WaitForSeconds(5f);
+
         for (int i = 0; i < 200; i++)
         {
             newObject();

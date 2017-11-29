@@ -29,6 +29,8 @@ public class Prefabs : MonoBehaviour
     }
 
         IEnumerator newobject(){
+        yield return new WaitForSeconds(1f);
+        
         while (true)
         {
             for (int i=0; i<1; i++)
