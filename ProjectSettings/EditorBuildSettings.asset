@@ -41,3 +41,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/HowToPlay.unity
     guid: 78b6fd37282b3014981c05a102984298
+  - enabled: 1
+    path: Assets/Clear.unity
+    guid: d35067be948f5114ea9a75a27ac993a7

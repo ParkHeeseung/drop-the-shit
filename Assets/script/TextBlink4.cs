@@ -25,7 +25,7 @@ public class TextBlink4 : MonoBehaviour
         {
             flashingText.text = "";
             yield return new WaitForSeconds(.5f);
-            flashingText.text = "REPLAY";
+            flashingText.text = "PRESS ANY KEY"; 
             yield return new WaitForSeconds(.5f);
         }
     }
