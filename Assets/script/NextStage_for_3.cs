@@ -9,7 +9,7 @@ public class NextStage_for_3: MonoBehaviour
     {
         if (_col.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(7, LoadSceneMode.Single); 
+            SceneManager.LoadScene(8, LoadSceneMode.Single); 
         }
     }
 }
