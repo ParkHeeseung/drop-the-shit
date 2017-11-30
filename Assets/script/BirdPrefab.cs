@@ -27,6 +27,8 @@ public class BirdPrefab : MonoBehaviour {
     IEnumerator newobject(){
         yield return new WaitForSeconds(5f);
 
+        GameManager.Instance().gameReady = true;
+
         for (int i = 0; i < 200; i++)
         {
             newObject();

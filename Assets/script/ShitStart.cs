@@ -13,6 +13,7 @@ public class ShitStart : MonoBehaviour {
         createdObject.transform.position = new Vector3(80, 40, 0);
         createdObject.transform.rotation = new Quaternion(-10, -10, -4+(i/5), -4+(i/5));
 
+     
     }
 
     void Start()
@@ -23,6 +24,9 @@ public class ShitStart : MonoBehaviour {
 
 
         StartCoroutine(newobject());
+  
+
+       // GameManager.Instance().gameReady = true;
     }
 
     IEnumerator newobject()
