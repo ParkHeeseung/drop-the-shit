@@ -5,9 +5,6 @@ using UnityEngine;
 public class ShitStart : MonoBehaviour {
 
     public GameObject prefab;
-    public float gridX = 5f;
-    public float gridY = 5f;
-    public float spacing = 2f;
 
 
     public void newObject(int i)
