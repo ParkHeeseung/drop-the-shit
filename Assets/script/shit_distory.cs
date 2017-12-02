@@ -16,8 +16,13 @@ public class shit_distory : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "finish")
-            Destroy(this.gameObject);
-    }
+        if (other.gameObject.tag == "Respawn")
+        {
+            Transform ParentTransform =  other.transform;
+            ParentTransform.position = new Vector3(400, 400, 400);
 
+        }
+            
+    }
+    
 }

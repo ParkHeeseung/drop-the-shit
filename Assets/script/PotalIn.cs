@@ -13,7 +13,7 @@ public class PotalIn : MonoBehaviour {
         if(_col.gameObject.tag == "Player")
         {
             Transform ParentTransform = _col.transform;
-            while(true)
+            while (true)
             {
                 if (ParentTransform.parent == null)
                     break;

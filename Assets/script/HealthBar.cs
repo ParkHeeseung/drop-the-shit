@@ -12,8 +12,6 @@ public class HealthBar : MonoBehaviour {
 
     void Start () {
 
-        
-
 	}
 	
 	
@@ -33,7 +31,7 @@ public class HealthBar : MonoBehaviour {
         }
 
         if(hpBar.value == 0)
-            SceneManager.LoadScene(10, LoadSceneMode.Single);
+            SceneManager.LoadScene(4, LoadSceneMode.Single);
 
         StartCoroutine(WaitForIt());
     }

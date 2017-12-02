@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44937766, g: 0.49945045, b: 0.57570106, a: 1}
+  m_IndirectSpecularColor: {r: 0.44937748, g: 0.4994504, b: 0.5757008, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -268,7 +268,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Stage 1
+  m_Text: Stage 2
 --- !u!222 &216157445
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -804,8 +804,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _spaceType: 1
   _shakeOption: 0
-  _shakeDuration: 1.5
-  _shakeAmount: 5
+  _shakeDuration: 0.5
+  _shakeAmount: 3
   _decreaseFactor: 1
   _targets:
   - {fileID: 398766237}
@@ -1272,7 +1272,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 711318746}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6599558655245ae478e9a3e0fc1deb10, type: 3}
+  m_Script: {fileID: 11500000, guid: b1021854e53d69442b6824ef24c5debe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!136 &711318748

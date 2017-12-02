@@ -28,14 +28,9 @@ public class crush_shit_sound : MonoBehaviour {
 	
     void OnTriggerEnter(Collider other)
     {
-
         if (other.gameObject.tag == "Respawn")
         {
             PlaySound();
         }
-
-
     }
-
-
 }

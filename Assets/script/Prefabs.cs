@@ -33,12 +33,11 @@ public class Prefabs : MonoBehaviour
         
         while (true)
         {
-            for (int i=0; i<1; i++)
-                newObject();
-      
+            newObject();
+            
             yield return new WaitForSeconds(0.7f);
         }
-        }
+    }
     
 
     void Update()
