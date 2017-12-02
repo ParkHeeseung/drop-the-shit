@@ -18,11 +18,11 @@ EditorBuildSettings:
     path: Assets/stage3.unity
     guid: 9693bdb8d1da96f48936bd21d4d680a1
   - enabled: 1
+    path: Assets/Clear.unity
+    guid: d35067be948f5114ea9a75a27ac993a7
+  - enabled: 1
     path: Assets/gameover.unity
     guid: 0c9169e4bc4d4b94daf9174ff422d9b0
   - enabled: 1
     path: Assets/HowToPlay.unity
     guid: 78b6fd37282b3014981c05a102984298
-  - enabled: 1
-    path: Assets/Clear.unity
-    guid: d35067be948f5114ea9a75a27ac993a7
