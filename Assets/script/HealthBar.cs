@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class HealthBar : MonoBehaviour {
 
     public Slider hpBar;
-    public bool check = true;
+    bool check = true;
 
     void Start () {
 

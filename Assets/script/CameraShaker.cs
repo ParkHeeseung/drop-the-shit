@@ -59,13 +59,11 @@ namespace AL.ALUtil
 
         void OnTriggerEnter(Collider other)
         {
-            if(other.gameObject.tag == "Respawn" && GameManager.Instance().Overwhelming == true)
+            if(other.gameObject.tag == "Respawn" && check == true)
             {
-                Debug.Log("hsdfadf");
-                
                 Shake(); 
                 Awake();
-                GameManager.Instance().Overwhelming = false;
+                check = false;
                 StartCoroutine(Overwhelming());
             }
             
@@ -75,8 +73,8 @@ namespace AL.ALUtil
         IEnumerator Overwhelming()
         {
             yield return new WaitForSeconds(1.5f);
-            //check = true;
-            GameManager.Instance().Overwhelming = true;
+            check = true;
+            //GameManager.Instance().Overwhelming = true;
         }
 
         public void Shake()

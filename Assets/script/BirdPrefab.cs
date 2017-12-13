@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BirdPrefab : MonoBehaviour {
 
-    public GameObject prefab;
+    GameObject prefab;
     public int Penguin_count;
 
     public void newObject(){
