@@ -29,7 +29,7 @@ public class BirdPrefab : MonoBehaviour {
         {
             newObject();
         }
-        yield return new WaitForSeconds(0.7f);
+       
     }
 
 }

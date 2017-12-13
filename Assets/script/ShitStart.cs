@@ -10,8 +10,8 @@ public class ShitStart : MonoBehaviour {
     public void newObject(int i)
     {
         GameObject createdObject = Instantiate(prefab, new Vector3(0, 25, 0), Quaternion.identity);
-        createdObject.transform.position = new Vector3(80, 40, 0);
-        createdObject.transform.rotation = new Quaternion(-10, -10, -4+(i/5), -4+(i/5));
+        createdObject.transform.position = new Vector3(80, 40, 0);//부리쪽 위치 좌표
+        createdObject.transform.rotation = new Quaternion(-10, -10, -4+(i/5), -4+(i/5));//뿌리는 효과 보여주기 위한 회전 좌표
 
      
     }

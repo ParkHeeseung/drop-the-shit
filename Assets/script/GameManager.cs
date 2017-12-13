@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour {
     static public GameManager Instance() { return _instnace; }
 
     public bool gameReady = false;
+    public bool Overwhelming = true;
 
     // Use this for initialization
     void Start () {

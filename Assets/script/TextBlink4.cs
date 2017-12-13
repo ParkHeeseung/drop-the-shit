@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 
 public class TextBlink4 : MonoBehaviour
 {
-    Text flashingText;
+    public Text flashingText;
 
     // Use this for initialization
     void Start()
@@ -21,6 +21,7 @@ public class TextBlink4 : MonoBehaviour
     // Update is called once per frame
     public IEnumerator BlinkText()
     {
+        
         while (true)
         {
             flashingText.text = "";

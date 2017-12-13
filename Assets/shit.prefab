@@ -122,6 +122,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1358476916313826, guid: 4347ef6e7329ea2468c368be9cb20a44, type: 2}
-  gridX: 5
-  gridY: 5
-  spacing: 2

@@ -21,8 +21,6 @@ public class HealthBar : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        
-       
         if ((other.gameObject.tag == "Respawn") && check)
         {
             
@@ -39,6 +37,8 @@ public class HealthBar : MonoBehaviour {
     IEnumerator WaitForIt()
     {
         yield return new WaitForSeconds(1.5f);
+
+        
         check = true;
     }
 }

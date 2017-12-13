@@ -5,8 +5,8 @@ using UnityEngine;
 public class crush_shit_sound : MonoBehaviour {
     public AudioClip soundExplosion;
     AudioSource myAudio;
-
-    public static crush_shit_sound instance;
+    private bool check = true;
+  /*  public static crush_shit_sound instance;
 
     void Awake()
     {
@@ -14,7 +14,7 @@ public class crush_shit_sound : MonoBehaviour {
         {
             crush_shit_sound.instance = this;
         }
-    }
+    }*/
 
 	// Use this for initialization
 	void Start () {
@@ -28,9 +28,17 @@ public class crush_shit_sound : MonoBehaviour {
 	
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Respawn")
+        if (other.gameObject.tag == "Respawn" && check)
         {
+            check = false;
             PlaySound();
+            StartCoroutine(OverWhelming());
         }
+    }
+
+    IEnumerator OverWhelming()
+    {
+        yield return new WaitForSeconds(1.5f);
+        check = true;
     }
 }

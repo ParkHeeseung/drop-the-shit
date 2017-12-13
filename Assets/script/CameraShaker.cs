@@ -46,6 +46,7 @@ namespace AL.ALUtil
         private float _shakeDurationValue = 0;
         private bool _isShaking = false;
         public bool isShaking {get { return _isShaking; } }
+        private bool check = true;
 
         void Awake()
         {
@@ -58,11 +59,24 @@ namespace AL.ALUtil
 
         void OnTriggerEnter(Collider other)
         {
-            if(other.gameObject.tag == "Respawn")
+            if(other.gameObject.tag == "Respawn" && GameManager.Instance().Overwhelming == true)
             {
-                Shake();
+                Debug.Log("hsdfadf");
+                
+                Shake(); 
                 Awake();
+                GameManager.Instance().Overwhelming = false;
+                StartCoroutine(Overwhelming());
             }
+            
+        }
+
+        
+        IEnumerator Overwhelming()
+        {
+            yield return new WaitForSeconds(1.5f);
+            //check = true;
+            GameManager.Instance().Overwhelming = true;
         }
 
         public void Shake()
