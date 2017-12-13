@@ -3,16 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartNextScene : MonoBehaviour
+public class Change_Scene : MonoBehaviour
 {
 
     public void SceneChange1()
     {
-        SceneManager.LoadScene("start");
+        SceneManager.LoadScene("HowToPlay");
     }
 
-    public void SceneChage2()
+    public void SceneChange2()
+    {
+        SceneManager.LoadScene("Start");
+    }
+
+    public void SceneChange3()
     {
         SceneManager.LoadScene("stage1");
     }
 }
+
