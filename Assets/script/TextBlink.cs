@@ -10,20 +10,22 @@ public class TextBlink : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        flashingText = GetComponent<Text>();
         StartCoroutine (BlinkText());
 
 		
 	}
 	
 	// Update is called once per frame
-public IEnumerator BlinkText()
+    IEnumerator BlinkText()
     {
+        flashingText = GetComponent<Text>();
+        string copy_text = flashingText.text;
+
         while (true)
         {
             flashingText.text = "";
             yield return new WaitForSeconds(.5f);
-            flashingText.text = "GAME START";
+            flashingText.text = copy_text;
             yield return new WaitForSeconds(.5f);
         }
     }
