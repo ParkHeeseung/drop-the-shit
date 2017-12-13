@@ -328,6 +328,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8557ae7248418c4185e51019632a813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  size: 1
+  t: {fileID: 0}
 --- !u!1001 &218811742
 Prefab:
   m_ObjectHideFlags: 0
@@ -870,7 +872,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hpBar: {fileID: 1780236231}
-  check: 1
 --- !u!114 &398766242
 MonoBehaviour:
   m_ObjectHideFlags: 0
