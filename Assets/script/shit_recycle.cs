@@ -11,23 +11,22 @@ public class shit_recycle: MonoBehaviour {
     void Start()
     {
         shit = GetComponent<Transform>();
+        StartCoroutine(recycle());
     }
 
     // Update is called once per frame
-    void Update()
+
+
+    IEnumerator recycle()
     {
-        pos = this.gameObject.transform.position;
-
-        recycle();
-
-
-    }
-
-    void recycle()
-    {
-        if (pos.y < 0)
+        while (true)
         {
-            transform.position = new Vector3(Random.Range(-40, 40), 100, Random.Range(-30, 30));
+            if (shit.position.y < 0)
+            {
+                transform.position = new Vector3(Random.Range(-40, 40), Random.Range(40, 60), Random.Range(-30, 30));
+            }
+
+            yield return new WaitForSeconds(0.2f);
         }
     }
 }

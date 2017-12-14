@@ -5,10 +5,10 @@ using UnityEngine;
 public class droping_shit : MonoBehaviour {
 
     public int Speed;
-    float destroyTime = 3;
+    //float destroyTime = 3;
 	// Use this for initialization
 	void Start () {
-        Destroy(gameObject, destroyTime);
+      //  Destroy(gameObject, destroyTime);
 
     }
 
